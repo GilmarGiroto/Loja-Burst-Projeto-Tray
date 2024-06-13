@@ -1,4 +1,17 @@
-# lojinha
+# CRUDS do poejto:
+ CRUD 1: 
+   1) Criar conta (Na pagina de Criar Conta)
+   2) Editar conta (No Gerenciador de Contas)
+   3) Exlcuir conta (No Gerenciador de Contas)
+   4) Listar contas (No Gerenciador de Contas)
+
+ CRUD 2 (Todos os metodos nas páginas Gerenciador de Produtos e Editar Produto):
+   1) Criar produto
+   2) Editar produto
+   3) Excluir produto
+   4) Listar produtos
+
+# Projeto Tray
 
 This template should help get you started developing with Vue 3 in Vite.
 
