@@ -1,4 +1,4 @@
-# Unimar ADS 3C
+# Unimar ADS 3°C
 # Membros do projeto:
 Breno Bernardo 1977043 <br>
 Gilmar Junior Giroto 1978685 <br>
