@@ -11,7 +11,6 @@
 </template>
 
 <style>
-/* Estilos gerais */
 
 body {
   background-color: #f8f9fa;

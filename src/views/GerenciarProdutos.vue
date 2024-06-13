@@ -98,7 +98,7 @@ const loadProducts = () => {
             produtos.items = response.data;
         })
         .catch((error) => {
-            console.error("Failed to fetch products:", error);
+            console.error("Falha ao exibir produtos:", error);
         });
 };
 
@@ -115,7 +115,7 @@ const excluirProduto = (id) => {
             }
         })
         .catch((error) => {
-            console.error("Failed to delete product:", error);
+            console.error("Falha ao excluir produto:", error);
         });
 };
 

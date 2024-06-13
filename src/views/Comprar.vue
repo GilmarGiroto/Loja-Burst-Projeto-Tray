@@ -132,14 +132,12 @@
         ProductDataService.getAll()
           .then(response => {
             const allProducts = response.data;
-            // Remova o produto atual da lista de sugestões
+            // Remove o produto atual da lista de sugestões
             const filteredProducts = allProducts.filter(p => p.id !== id);
-            // Escolha dois números aleatórios para selecionar duas sugestões
             const randomIndices = Array.from(
               { length: 2 },
               () => Math.floor(Math.random() * filteredProducts.length)
             );
-            // Adicione as sugestões aleatórias aos produtos sugeridos
             randomIndices.forEach(index => {
               suggestedProducts.value.push(filteredProducts[index]);
             });
@@ -150,7 +148,6 @@
       });
   
       const adicionarAoCarrinho = () => {
-        // Adicionar lógica para adicionar ao carrinho
         console.log(`Produto ${produto.value.nome} adicionado ao carrinho com quantidade ${quantidade.value}`);
       };
   

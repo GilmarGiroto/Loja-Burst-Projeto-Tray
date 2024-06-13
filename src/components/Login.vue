@@ -9,7 +9,7 @@
           <input type="email" v-model="email" id="email" required />
         </div>
         <div>
-          <label for="password">Password:</label>
+          <label for="password">Senha:</label>
           <input type="password" v-model="password" id="password" required />
         </div>
         <button type="submit">Login</button>
@@ -35,7 +35,7 @@ export default {
     const router = useRouter();
 
     const login = () => {
-      alert('Usuário conectado');  // Exibe o alerta antes de qualquer lógica de login
+      alert('Usuário conectado'); 
       const data = {
         email: email.value,
         senha: password.value

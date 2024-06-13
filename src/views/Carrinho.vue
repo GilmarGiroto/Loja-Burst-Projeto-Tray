@@ -23,7 +23,7 @@
     <div class="container mt-5">
         <h1>Carrinho de Compras</h1>
         <div class="row" id="cart-items">
-          <!-- Items in the cart will be dynamically added here -->
+          <!-- Cards de produtos aparecem aqui -->
         </div>
         <div class="row mt-3">
           <div class="col text-center">

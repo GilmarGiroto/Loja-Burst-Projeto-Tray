@@ -44,7 +44,7 @@ import Carrinho from '@/components/Carrinho.vue';
         <div class="containers-sugestoes">
           <h3 class="mt-5">Sugestões</h3>
           <div class="row" id="suggested-products">
-            <!-- Suggested products will be dynamically added here -->
+            <!-- Produtos Sugeridos Aparecem aqui -->
           </div>
         </div>
       </div>

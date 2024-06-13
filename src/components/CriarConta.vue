@@ -1,18 +1,21 @@
 <template>
-  <div class="signup">
-    <h2>Criar Conta</h2>
-    <form @submit.prevent="signup">
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" v-model="email" id="email" required />
-      </div>
-      <div class="form-group">
-        <label for="password">Senha:</label>
-        <input type="password" v-model="senha" id="password" required />
-      </div>
-      <button type="submit">Criar Conta</button>
-    </form>
-    <p>Já tem uma conta? <router-link to="/login">Faça login</router-link></p>
+  <div>
+    <Navbar />
+    <div class="signup">
+      <h2>Criar Conta</h2>
+      <form @submit.prevent="signup">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" v-model="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" v-model="senha" id="password" required />
+        </div>
+        <button type="submit">Criar Conta</button>
+      </form>
+      <p>Já tem uma conta? <router-link to="/login">Faça login</router-link></p>
+    </div>
   </div>
 </template>
 
@@ -20,8 +23,13 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import UserDataService from '@/services/UserDataService';
+import Navbar from './Navbar.vue'; 
 
 export default {
+  components: {
+    Navbar 
+  },
+
   setup() {
     const email = ref('');
     const senha = ref('');
@@ -56,6 +64,7 @@ export default {
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
 }
 
 h2 {
