@@ -1,0 +1,89 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0; /* Adicionado para remover margens padrão */
+    font-family: Arial, sans-serif; /* Definido uma fonte genérica */
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    border-bottom: 1px solid #ddd; /* Adicionado para separar a barra de navegação do conteúdo */
+}
+
+.footer {
+    background-color: transparent;
+    color: #fff; /* Mudado para texto branco para melhor legibilidade */
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Corrigido para manter o rodapé sempre no fundo */
+    width: 100%; /* Adicionado para estender o rodapé */
+    bottom: 0; /* Colocado no fundo da janela do navegador */
+}
+
+.icon_carrinho svg {
+    margin-top: 5px;
+    margin-left: -3px;
+    width: 38px;
+    height: 38px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.btn-floating {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 60px; /* Ajustado para centralizar o texto verticalmente */
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-comprarcombo {
+    background-color: #31f300;
+    color: #000000;
+    border: none;
+    width: 170px;
+    height: 40px;
+    font-size: 16px; /* Reduzido o tamanho da fonte para melhor ajuste */
+    text-align: center;
+    bottom: 20px; /* Posicionado a 20px do fundo */
+    right: 20px; /* Posicionado a 20px da direita */
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+.btn-comprarcombo:hover {
+    background-color: #33a107;
+    color: #000000;
+}
+
+#product-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-orange {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #f57c00;
+}
+
+.card.mb-4.shadow-sm {
+    width: 180px;
+    height: 90%;
+    margin-right: 10px;
+}
+
+
