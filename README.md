@@ -1,8 +1,8 @@
 # Unimar ADS 3C
 # Membros do projeto:
-Breno Bernardo 1977043 
-Gilmar Junior Giroto 1978685 
-Suelen Aleixo 1969506
+Breno Bernardo 1977043 <br>
+Gilmar Junior Giroto 1978685 <br>
+Suelen Aleixo 1969506 <br>
 
 # Descrição do Projeto:
 Objetivo desse projeto é fazer com que aumente o ticket médio no ato da compra. Para isso criamos um campo aonde sugere itens relacionados a compra do ususário, assim estimulando a compra de um item a mais.
