@@ -1,4 +1,4 @@
-# CRUDS do poejto:
+# CRUDS do pojeto:
  CRUD 1: 
    1) Criar conta (Na pagina de Criar Conta)
    2) Editar conta (No Gerenciador de Contas)
