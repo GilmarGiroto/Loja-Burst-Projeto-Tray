@@ -5,7 +5,7 @@ import Comprar from '@/views/Comprar.vue'
 import Adicionar from '@/views/AdicionarCarrinho.vue'
 import CriarConta from '@/components/CriarConta.vue'
 import Login from '@/components/Login.vue'
-import Gerenciar from '@/views/Gerenciar.vue'
+import Gerenciar from '@/views/GerenciarProdutos.vue'
 import EditarProduto from '@/components/EditarProduto.vue'
 import GerenciarContas from '@/views/GerenciarContas.vue'
 
